@@ -42,4 +42,4 @@ en el método Start para que el color asignado desde el editor funcione correcta
 
 Se ha creado el Script con un vector público en el que se encuentran los cubos que van a cambiar de color y un color público para asignar el color que se desea. En el Update se ha añadido un cambio de color al presionar la tecla espacio utilizando un bucle para recorrer todos los cubos del vector y cambiar su color.
 Se ha hecho lo mismo para el cambio de tamaño y para el script combinado.
-![ej6](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%201%20POO/Multimedia/ej1.gif)
+![ej6](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%201%20POO/Multimedia/ej6.gif)
