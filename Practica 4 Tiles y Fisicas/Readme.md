@@ -11,16 +11,28 @@ El objetivo fue familiarizarse con el comportamiento de colliders, rigidbodies y
 Se implementó una escena sencilla con diferentes configuraciones de objetos físicos. Para ello se crearon tres scripts básicos (`Dinamico`, `Cinematico`, `Estatico`) que ajustaban el componente `Rigidbody2D` o lo eliminaban según el tipo de cuerpo. A cada uno se le añadieron métodos `OnCollision2D` y `OnTrigger2D` que imprimían mensajes en la consola para comprobar qué casos disparaban cada evento.  
 
 #### Casos probados  
+#### Casos probados  
 1. **Ninguno de los objetos es físico** → No se producen colisiones (no hay `Rigidbody2D`).  
-2. **Un objeto tiene físicas y el otro no** → Se generan colisiones correctamente.  
-3. **Ambos objetos tienen físicas** → Colisión entre dinámicos.  
-4. **Ambos objetos con distinta masa** (10×) → El de menor masa se desplaza más en la colisión.  
-5. **Un objeto físico y el otro IsTrigger** → Se activan solo eventos `OnTrigger2D`.  
-6. **Ambos físicos y uno IsTrigger** → Igual, solo eventos de trigger.  
-7. **Un objeto cinemático** → Detecta colisión, pero el cinemático no recibe fuerza.  
+![Nofisico](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%204%20Tiles%20y%20Fisicas/multimedia/Nofisico.gif)
 
-![DosFisicos](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%204%20Tiles%20y%20Fisicas/multimedia/Dosfisicos.gif)  
-*Ejemplo de colisión entre dos objetos físicos.*  
+2. **Un objeto tiene físicas y el otro no** → Se generan colisiones correctamente.  
+![Unfisico](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%204%20Tiles%20y%20Fisicas/multimedia/Unfisico.gif)
+
+3. **Ambos objetos tienen físicas** → Colisión entre dinámicos.  
+![Dosfisicos](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%204%20Tiles%20y%20Fisicas/multimedia/Dosfisicos.gif)
+
+4. **Ambos objetos con distinta masa** (10×) → El de menor masa se desplaza más en la colisión.  
+![MasMasa](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%204%20Tiles%20y%20Fisicas/multimedia/MasMasa.gif)
+
+5. **Un objeto físico y el otro IsTrigger** → Se activan solo eventos `OnTrigger2D`.  
+![IsTrigger](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%204%20Tiles%20y%20Fisicas/multimedia/IsTrigger.gif)
+
+6. **Ambos físicos y uno IsTrigger** → Igual, solo eventos de trigger.  
+![IsTriggerFisico](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%204%20Tiles%20y%20Fisicas/multimedia/IsTriggerFisico.gif)
+
+7. **Un objeto cinemático** → Detecta colisión, pero el cinemático no recibe fuerza.  
+![Kinematic](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%204%20Tiles%20y%20Fisicas/multimedia/Kinematic.gif)
+
 
 ---
 
