@@ -75,7 +75,13 @@ En cada `Update` se lee la entrada con `Input.GetAxis("Horizontal")`.   El despl
 *Movimiento lateral con flip del personaje.*  
 
 #### b) Movimiento con rotación y avance hacia adelante  
-En cada `Update` se lee la entrada con `Input.GetAxis("Horizontal")`.   El desplazamiento se calcula como `velocidad * Time.deltaTime` mediante `transform.Translate()`.   El sprite se voltea con `flipX` para mirar en la dirección correcta.  
+En esta mecánica el personaje se controla con dos ejes distintos:  
+
+- **Horizontal** (`A/D` o `←/→`) para la **rotación** sobre el eje Z.  
+- **Vertical** (`W/S` o `↑/↓`) para el **avance o retroceso** en la dirección hacia la que mira el objeto.  
+
+El giro se implementa con `transform.Rotate()` usando `Time.deltaTime` para que sea suave e independiente del framerate.  
+El movimiento se realiza con `transform.Translate()` en el **espacio local** (`Space.Self`), lo que hace que el desplazamiento se produzca en la dirección a la que está orientado el personaje (su eje Y).De esta forma se consigue que el jugador pueda orientar al personaje con las teclas de dirección y avanzar hacia adelante o atrás según su orientación.  
 
 ![PlayerMovementRotation](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%204%20Tiles%20y%20Fisicas/multimedia/PlayerMovementRotation.gif)  
 *Movimiento mediante rotación y avance constante.*  
