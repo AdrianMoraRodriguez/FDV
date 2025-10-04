@@ -15,7 +15,7 @@ Se creó una conexión en **P4V** al servidor de la ULL y se comprobó el acceso
 ### Parte 2: Clonación del repositorio  
 Se mapeó el **workspace** y se realizó la **sincronización** inicial con los archivos del depot.  
 
-### Parte 3: Creación de `tu_nombre.txt`  
+### Parte 3: Creación de `Adrián Mora Rodríguez.txt`  
 Se creó un nuevo archivo de texto con información personal y se añadió al control de versiones.  
 
 ![ClonarYCrear](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%205%20Perforce/multimedia/ClonarYCrear.png)
