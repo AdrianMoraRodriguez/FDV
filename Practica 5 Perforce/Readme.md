@@ -27,6 +27,3 @@ Se generó un **proyecto Unity 3D** con prefijo del nombre y se subió al depot.
 ![CrearProyecto](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Practica%205%20Perforce/multimedia/CrearProyecto.png)
 
 ---
-
-### Conclusión  
-Se completó la conexión, edición y subida de un proyecto Unity al servidor **Perforce ULL**, quedando listo para futuras prácticas.  
