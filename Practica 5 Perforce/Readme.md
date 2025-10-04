@@ -8,7 +8,7 @@ Se configuró la conexión a **Perforce (FDV2526)**, se clonó el repositorio y 
 
 ### Parte 1: Conexión al depot  
 Se creó una conexión en **P4V** al servidor de la ULL y se comprobó el acceso al depot **FDV2526**.  
-![ConexionPerforce](ConexionPerforce.png)
+![ConexionPerforce](https://github.com/AdrianMoraRodriguez/FDV/tree/main/Practica%205%20Perforce/multimedia/ConexionPerforce.png)
 
 ---
 
@@ -18,13 +18,13 @@ Se mapeó el **workspace** y se realizó la **sincronización** inicial con los 
 ### Parte 3: Creación de `tu_nombre.txt`  
 Se creó un nuevo archivo de texto con información personal y se añadió al control de versiones.  
 
-![ClonarYCrear](ClonarYCrear.png)
+![ClonarYCrear](https://github.com/AdrianMoraRodriguez/FDV/tree/main/Practica%205%20Perforce/multimedia/ClonarYCrear.png)
 
 ---
 
 ### Parte 5: Proyecto Unity 3D  
 Se generó un **proyecto Unity 3D** con prefijo del nombre y se subió al depot.  
-![CrearProyecto](CrearProyecto.png)
+![CrearProyecto](https://github.com/AdrianMoraRodriguez/FDV/tree/main/Practica%205%20Perforce/multimedia/CrearProyecto.png)
 
 ---
 
