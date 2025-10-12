@@ -25,12 +25,6 @@ El proyectil se configuró como **hijo del jugador**, moviéndose junto a él.
 Tras dispararse, se oculta automáticamente mediante una **corrutina** que desactiva el `SpriteRenderer`.  
 ![ej_3_4](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Pr%C3%A1ctica%206%20UI%20y%20Eventos/multimedia/ej_3_4.gif)
 
----
-
-### Ejercicio 5: Disparo con retardo  
-El script `PlayerShooter` controla la animación y el disparo, creando el proyectil tras un **retardo** con `WaitForSeconds()`.  
-El proyectil se mueve en la dirección del disparo y se destruye tras un tiempo de vida determinado. Es importante destacar que en este punto se implementó que el proyectil se dispara en la dirección que mira el jugador gracias a un `EmptyObject` que determina la posición de spawn del proyectil. 
-![ej_5](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Pr%C3%A1ctica%206%20UI%20y%20Eventos/multimedia/ej_5.gif)
 
 ---
 
