@@ -81,7 +81,7 @@ El personaje rota suavemente con `LookAt()` y se detiene automáticamente al est
 ---
 
 ### Ejercicio 11: Recorrido por waypoints  
-Con `WaypointFollower` y `MoveAlongWaypoint`, se implementó un recorrido automático por una serie de puntos (`tag "waypoint"`).  
+Con `WaypointFollower` y `MoveAlongWaypoint`, se implementó un recorrido automático por una serie de puntos.  
 El personaje rota gradualmente hacia el siguiente punto utilizando `Quaternion.Slerp` y avanza hasta alcanzarlo, formando un circuito continuo.  
 ![Ej11](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Pr%C3%A1ctica%2010%20Movimiento%20Rectil%C3%ADneo/multimedia/Ej11.gif)
 
