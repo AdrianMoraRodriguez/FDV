@@ -23,10 +23,7 @@ public class ParallaxTextureScroll : MonoBehaviour
         {
             Material m = layers[i];
             Vector2 offset = m.GetTextureOffset("_MainTex");
-
-            // Cada capa se mueve más lento según su índice (profundidad)
             offset += (speedOffset * movement * Time.deltaTime) / (i + 1.0f);
-
             m.SetTextureOffset("_MainTex", offset);
         }
     }
