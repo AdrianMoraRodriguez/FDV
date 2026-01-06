@@ -21,7 +21,7 @@ Este proyecto consiste en el desarrollo de un **prototipo de videojuego 2D origi
 
 El objetivo principal ha sido crear un juego funcional, coherente y escalable, prestando especial atención a la **calidad del código**, la **originalidad de las mecánicas**, el **diseño progresivo de niveles** y la **experiencia de usuario**.
 
-![First Level Third Group](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/multimedia/FirstLevelTG.gif)
+![First Level Third Group](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/Multimedia/FirstLevelTG.gif)
 
 ---
 
@@ -36,7 +36,7 @@ La principal característica diferencial del juego es que se divide en **dos fas
 
 Los dibujos realizados por el jugador se convierten en **objetos físicos**, que pueden utilizarse como plataformas, contrapesos u otros elementos interactivos necesarios para superar el nivel.
 
-![Level Second Group](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/multimedia/LevelSG.gif)
+![Level Second Group](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/Multimedia/LevelSG.gif)
 
 ---
 
@@ -70,7 +70,7 @@ El juego está compuesto por **12 niveles**, divididos en **3 grupos de 4 nivele
 
 Cada grupo de niveles representa una etapa en la **evolución artística del personaje**, lo cual se refleja en cambios en el **stilo visual del personaje y del fondo**.
 
-![First Level First Group](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/multimedia/LastLevelFG.gif)
+![First Level First Group](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/Multimedia/LastLevelFG.gif)
 
 ### Estructura de cada grupo de niveles
 
@@ -145,7 +145,7 @@ El proyecto utiliza **Cinemachine** para el control de cámaras:
 - Uso de **Cinemachine Target Group** para encuadrar varios objetos simultáneamente.
 - Reencuadre dinámico al finalizar el nivel para destacar los objetivos recogidos.
 
-![Animator](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/multimedia/FirstLevelFG.gif)
+![Animator](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/Multimedia/FirstLevelFG.gif)
 
 ---
 
@@ -158,7 +158,7 @@ El proyecto utiliza **Cinemachine** para el control de cámaras:
 - Integración coherente de UI, audio, cámaras y gameplay.
 - Estilo artístico evolutivo a lo largo de los niveles.
 
-![Animator](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/multimedia/LastLevelTG.gif)
+![Animator](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/Multimedia/LastLevelTG.gif)
 
 ---
 
