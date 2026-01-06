@@ -11,7 +11,6 @@
 7. [Interfaz de usuario y experiencia de usuario](#7-interfaz-de-usuario-y-experiencia-de-usuario)
 8. [Control de cámaras](#8-control-de-cámaras)
 9. [Aspectos destacados del proyecto](#9-aspectos-destacados-del-proyecto)
-10. [Presentación del proyecto](#10-presentación-del-proyecto)
 
 ---
 
@@ -160,10 +159,3 @@ El proyecto utiliza **Cinemachine** para el control de cámaras:
 
 ![Animator](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/Multimedia/LastLevelTG.gif)
 
----
-
-## 10. Presentación del proyecto
-
-El repositorio incluye un **enlace a un vídeo en inglés** en el que se explica el prototipo desde una **perspectiva técnica**, describiendo las principales mecánicas, sistemas implementados y decisiones de diseño.
-
-Este README forma parte del portfolio del proyecto y sirve como documento de presentación del trabajo realizado.
