@@ -7,9 +7,9 @@
 3. [Mecánicas de juego implementadas](#3-mecánicas-de-juego-implementadas)
 4. [Estructura y progresión de niveles](#4-estructura-y-progresión-de-niveles)
 5. [Arquitectura y organización del proyecto](#5-arquitectura-y-organización-del-proyecto)
-6. [Hitos de programación logrados](#6-hitos-de-programación-logrados)
-7. [Interfaz de usuario y experiencia de usuario](#7-interfaz-de-usuario-y-experiencia-de-usuario)
-8. [Control de cámaras](#8-control-de-cámaras)
+6. [Interfaz de usuario y experiencia de usuario](#6-interfaz-de-usuario-y-experiencia-de-usuario)
+7. [Control de cámaras](#7-control-de-cámaras)
+8. [Hitos de programación logrados](#8-hitos-de-programación-logrados)
 9. [Aspectos destacados del proyecto](#9-aspectos-destacados-del-proyecto)
 
 ---
@@ -100,7 +100,34 @@ El proyecto está estructurado de forma modular y desacoplada, utilizando un **s
 
 ---
 
-## 6. Hitos de programación logrados
+## 6. Interfaz de usuario y experiencia de usuario
+
+- Barra de tinta que refleja el recurso disponible en tiempo real.
+- Menú de pausa funcional.
+- Menú de selección de niveles con:
+  - Niveles bloqueados/desbloqueados.
+  - Indicadores visuales del progreso.
+- Feedback visual y sonoro para acciones importantes.
+- Reinicio rápido del nivel tras la muerte.
+
+Se ha prestado especial atención a que la interfaz sea **clara, reactiva y no intrusiva**.
+
+---
+
+## 7. Control de cámaras
+
+El proyecto utiliza **Cinemachine** para el control de cámaras:
+
+- Uso de múltiples cámaras.
+- Cámaras con zonas de confinamiento.
+- Uso de **Cinemachine Target Group** para encuadrar varios objetos simultáneamente.
+- Reencuadre dinámico al finalizar el nivel para destacar los objetivos recogidos.
+
+![Animator](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/Multimedia/FirstLevelFG.gif)
+
+---
+
+## 8. Hitos de programación logrados
 
 1. **Diseño basado en eventos**:
    - Reducción del acoplamiento entre sistemas.
@@ -138,33 +165,6 @@ El proyecto está estructurado de forma modular y desacoplada, utilizando un **s
     - Implementación de un sistema de parallax con múltiples capas.
     - Movimiento diferencial del último fondo en función del desplazamiento de la cámara.
     - Filtrado de micro-movimientos para evitar mareos y mejorar el confort visual.
----
-
-## 7. Interfaz de usuario y experiencia de usuario
-
-- Barra de tinta que refleja el recurso disponible en tiempo real.
-- Menú de pausa funcional.
-- Menú de selección de niveles con:
-  - Niveles bloqueados/desbloqueados.
-  - Indicadores visuales del progreso.
-- Feedback visual y sonoro para acciones importantes.
-- Reinicio rápido del nivel tras la muerte.
-
-Se ha prestado especial atención a que la interfaz sea **clara, reactiva y no intrusiva**.
-
----
-
-## 8. Control de cámaras
-
-El proyecto utiliza **Cinemachine** para el control de cámaras:
-
-- Uso de múltiples cámaras.
-- Cámaras con zonas de confinamiento.
-- Uso de **Cinemachine Target Group** para encuadrar varios objetos simultáneamente.
-- Reencuadre dinámico al finalizar el nivel para destacar los objetivos recogidos.
-
-![Animator](https://github.com/AdrianMoraRodriguez/FDV/blob/main/Proyecto%20Final/Multimedia/FirstLevelFG.gif)
-
 ---
 
 ## 9. Aspectos destacados del proyecto
