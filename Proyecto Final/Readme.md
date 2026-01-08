@@ -130,14 +130,14 @@ El proyecto está estructurado de forma modular y desacoplada, utilizando un **s
     - Mejora de la legibilidad y mantenibilidad del sistema de físicas.
       
 7. **Sonido**
-  - Reproducción de efectos de sonido asociados a acciones clave como salto, dibujo, daño y final de nivel.
-  - Gestión centralizada del audio mediante eventos.
-  - Música de fondo persistente para reforzar la ambientación del juego.
+    - Reproducción de efectos de sonido asociados a acciones clave como salto, dibujo, daño y final de nivel.
+    - Gestión centralizada del audio mediante eventos.
+    - Música de fondo persistente para reforzar la ambientación del juego.
 
 8. **Scroll del fondo**
-  - Implementación de un sistema de parallax con múltiples capas.
-  - Movimiento diferencial del último fondo en función del desplazamiento de la cámara.
-  - Filtrado de micro-movimientos para evitar mareos y mejorar el confort visual.
+    - Implementación de un sistema de parallax con múltiples capas.
+    - Movimiento diferencial del último fondo en función del desplazamiento de la cámara.
+    - Filtrado de micro-movimientos para evitar mareos y mejorar el confort visual.
 ---
 
 ## 7. Interfaz de usuario y experiencia de usuario
