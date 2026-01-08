@@ -118,7 +118,26 @@ El proyecto está estructurado de forma modular y desacoplada, utilizando un **s
 4. **Progresión de niveles estructurada**:
    - Introducción gradual de mecánicas.
    - Reutilización de sistemas en niveles avanzados.
+    
+5. **Uso de múltiples cámaras, zonas de confinamiento y target groups**
+    - Implementación de varias cámaras mediante Cinemachine.
+    - Uso de zonas de confinamiento para limitar el movimiento de la cámara al escenario.
+    - Seguimiento dinámico del jugador y de grupos de objetos (target groups) en momentos clave, como el final del nivel.
+    
+6. **Uso de capas para controlar colisiones**
+    - Separación clara entre jugador, enemigos, proyectiles, entorno y dibujo.
+    - Control preciso de las interacciones físicas y de los elementos que pueden bloquear o activar mecanismos.
+    - Mejora de la legibilidad y mantenibilidad del sistema de físicas.
+      
+7. **Sonido**
+  - Reproducción de efectos de sonido asociados a acciones clave como salto, dibujo, daño y final de nivel.
+  - Gestión centralizada del audio mediante eventos.
+  - Música de fondo persistente para reforzar la ambientación del juego.
 
+8. **Scroll del fondo**
+  - Implementación de un sistema de parallax con múltiples capas.
+  - Movimiento diferencial del último fondo en función del desplazamiento de la cámara.
+  - Filtrado de micro-movimientos para evitar mareos y mejorar el confort visual.
 ---
 
 ## 7. Interfaz de usuario y experiencia de usuario
